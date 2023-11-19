@@ -70,3 +70,7 @@ a.cart {
   padding: 1rem;
   border-radius: 0.4rem;
 }
+
+a.cart:hover {
+  background-color: #b5c0ce;
+}
