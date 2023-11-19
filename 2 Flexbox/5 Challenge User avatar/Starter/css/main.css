@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #cbe1f1;
+  font-family: "Nunito";
+  margin: 3em;
+}
+
+.container {
+  width: 90%;
+  background-color: #fff;
+  display: flex;
+  padding: 0.5em 1em;
+  border-radius: 10em;
+  margin: 0 auto;
+  /* gap: 115px; */
+}
+
+.user-details {
+  display: flex;
+  padding: 1em;
+  gap: 2em;
+  align-items: center;
+  flex: 1;
+}
+
+.user-details img {
+  width: 52px;
+  height: 52px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.user-details h1 {
+  font-size: 2rem;
+}
+
+.user-status {
+  /* border: 1px solid; */
+  display: flex;
+}
+
+.green-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #5dbc3c;
+  align-self: center;
+  margin: 2rem;
+}
